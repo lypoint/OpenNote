@@ -259,11 +259,6 @@ bower_components/ckeditor/samples/plugins/dialog/assets/my_dialog.js
 bower_components/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/swfobject.js
 bower_components/ckeditor/samples/sample.js
 bower_components/ckeditor/styles.js
-bower_components/dragula.js
-bower_components/dragula.js/dist/dragula.js
-bower_components/dragula.js/dist/dragula.min.js
-bower_components/dragula.js/dragula.js
-bower_components/dragula.js/example/example.js
 bower_components/intro.js/BUILD/BUILD.js
 bower_components/intro.js/intro.js
 bower_components/intro.js/minified/intro.min.js
@@ -389,9 +384,6 @@ bower_components/ckeditor/skins/moono/editor_ie.css
 bower_components/ckeditor/skins/moono/editor_ie7.css
 bower_components/ckeditor/skins/moono/editor_ie8.css
 bower_components/ckeditor/skins/moono/editor_iequirks.css
-bower_components/dragula.js/dist/dragula.css
-bower_components/dragula.js/dist/dragula.min.css
-bower_components/dragula.js/example/example.css
 bower_components/intro.js/example/assets/css/bootstrap-responsive.min.css
 bower_components/intro.js/example/assets/css/bootstrap.min.css
 bower_components/intro.js/example/assets/css/demo.css
@@ -443,7 +435,6 @@ bower_components/ckeditor/samples/tabindex.html
 bower_components/ckeditor/samples/uicolor.html
 bower_components/ckeditor/samples/uilanguages.html
 bower_components/ckeditor/samples/xhtmlstyle.html
-bower_components/dragula.js/index.html
 bower_components/intro.js/example/RTL/index.html
 bower_components/intro.js/example/custom-class/index.html
 bower_components/intro.js/example/hello-world/index.html
@@ -522,8 +513,6 @@ bower_components/ckeditor/skins/moono/images/hidpi/refresh.png
 bower_components/ckeditor/skins/moono/images/lock-open.png
 bower_components/ckeditor/skins/moono/images/lock.png
 bower_components/ckeditor/skins/moono/images/refresh.png
-bower_components/dragula.js/resources/demo.png
-bower_components/dragula.js/resources/eyes.png
 bower_components/intro.js/example/assets/img/glyphicons-halflings-white.png
 bower_components/intro.js/example/assets/img/glyphicons-halflings.png
 openNote/style/OpenNote.png
