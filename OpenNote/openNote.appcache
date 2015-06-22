@@ -494,11 +494,7 @@ openNote/style/dark/ckeditor/moono.dark/editor_gecko.css
 openNote/style/dark/ckeditor/moono.dark/editor_ie.css
 openNote/style/dark/ckeditor/moono.dark/editor_ie7.css
 openNote/style/dark/ckeditor/moono.dark/editor_ie8.css
-openNote/style/dark/ckeditor/moono.dark/editor_iequirks.css
-openNote/style/invert/dark/alertify.css
-openNote/style/invert/dark/intojs.css
-openNote/style/invert/dark/note.css
-openNote/style/invert/dark/style.css
+openNote/style/dark/ckeditor/moono.dark/editor_iequirks.csss
 openNote/style/invert/alertify.css
 openNote/style/invert/intojs.css
 openNote/style/invert/note.css
