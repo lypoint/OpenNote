@@ -416,14 +416,6 @@ openNote/style/invert/alertify.css
 openNote/style/invert/intojs.css
 openNote/style/invert/note.css
 openNote/style/invert/style.css
-openNote/style/simplicity/dark/alertify.css
-openNote/style/simplicity/dark/intojs.css
-openNote/style/simplicity/dark/note.css
-openNote/style/simplicity/dark/style.css
-openNote/style/simplicity/light/alertify.css
-openNote/style/simplicity/light/intojs.css
-openNote/style/simplicity/light/note.css
-openNote/style/simplicity/light/style.css
 bower_components/ckeditor/plugins/preview/preview.html
 bower_components/ckeditor/plugins/wsc/dialogs/ciframe.html
 bower_components/ckeditor/plugins/wsc/dialogs/tmpFrameset.html
