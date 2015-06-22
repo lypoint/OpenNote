@@ -27,9 +27,7 @@ openNote.run(function (	$rootScope,
     $rootScope.$on("$routeChangeStart", function (event) {
     	//server config values
     		serverConfigService.getConfig().then(function(config){
-    			if(!config)
-    				alertify.error("Connection to service failed");
-    			else
+    			if(config)
     				$rootScope.serverConfig=config;
     		}); //attach server config to root scope
 
