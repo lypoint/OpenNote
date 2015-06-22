@@ -1,102 +1,92 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en-us">
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Opennote : OpenNote was built to be an open web-based alternative to Microsoft OneNote (T) and EverNote." />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Opennote</title>
+    <meta charset="UTF-8">
+    <title>Opennote by FoxUSA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
-
   <body>
+    <section class="page-header">
+      <h1 class="project-name">Opennote</h1>
+      <h2 class="project-tagline">OpenNote was built to be an open web-based alternative to Microsoft OneNote (T) and EverNote.</h2>
+      <a href="https://github.com/FoxUSA/OpenNote" class="btn">View on GitHub</a>
+      <a href="https://github.com/FoxUSA/OpenNote/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/FoxUSA/OpenNote/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/FoxUSA/OpenNote">View on GitHub</a>
-
-          <h1 id="project_title">Opennote</h1>
-          <h2 id="project_tagline">OpenNote was built to be an open web-based alternative to Microsoft OneNote (T) and EverNote.</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/FoxUSA/OpenNote/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/FoxUSA/OpenNote/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a name="opennote-" class="anchor" href="#opennote-"><span class="octicon octicon-link"></span></a>OpenNote <a href="https://travis-ci.org/FoxUSA/OpenNote"><img src="https://travis-ci.org/FoxUSA/OpenNote.png?branch=master" alt="Build Status"></a>
+    <section class="main-content">
+      <h1>
+<a id="opennote-" class="anchor" href="#opennote-" aria-hidden="true"><span class="octicon octicon-link"></span></a>OpenNote <a href="https://travis-ci.org/FoxUSA/OpenNote"><img src="https://travis-ci.org/FoxUSA/OpenNote.png?branch=master" alt="Build Status"></a>
 </h1>
 
-<p>In a post 9/11 world of mass digital survailence, there is only one way to keep yor digital information safe.
-In the United States, you do not have have 5th admentment rights if you entrust you information to a third party.</p>
+<p><img src="https://raw.githubusercontent.com/FoxUSA/OpenNote/master/Doc/screenShots/OpenNote.png" alt="">
+In a post 9/11 world of mass digital surveillance, there is only one way to keep your digital information safe.
+In the United States, you do not have have 5th amendment rights if you entrust you information to a third party.</p>
 
-<p>The fix is to take personal responsability and host apps data yourself.</p>
+<p>The fix is to take personal responsibility and host applications yourself.</p>
 
-<p>OpenNote was built to be a open source(MIT License), web based alternative to Microsoft OneNote (T) or EverNote.
+<p>OpenNote was built to be a open source(MIT License), web based note taking software.
 It is designed to be self hosted and gives you ownership of your data.</p>
 
 <p>Please support this project by:</p>
 
 <ul>
 <li>
-<a href="https://www.gittip.com/FoxUSA/">Using GitTip</a>, </li>
+<a href="https://www.gittip.com/FoxUSA/">Using GitTip</a>,</li>
 <li>
-<a href="http://blockchain.info/address/15Q2jhnTvxDQm4LvTku68vTzU8j8dcLnLB">donating bitcoins</a>, </li>
+<a href="http://blockchain.info/address/15Q2jhnTvxDQm4LvTku68vTzU8j8dcLnLB">donating bitcoins</a>,</li>
 <li>and/or like on <a href="http://alternativeto.net/software/opennote/">Alternative To</a>.</li>
-</ul><p>Thank you!</p>
+</ul>
 
-<p><a href="https://github.com/FoxUSA/OpenNote/releases">Download most resent release from here.</a></p>
+<p>Thank you!</p>
+
+<p><a href="https://registry.hub.docker.com/u/foxusa/opennote/">Download using Docker</a></p>
+
+<p><a href="https://github.com/FoxUSA/OpenNote/releases">or download manually from here.</a></p>
+
+<h2>
+<a id="demo" class="anchor" href="#demo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Demo</h2>
+
+<p><a href="http://stardrive.us/OpenNote/">http://stardrive.us/OpenNote/</a></p>
 
 <p><img src="https://raw.github.com/FoxUSA/OpenNote/master/Doc/screenShots/topLevel.png" alt=""></p>
 
 <h2>
-<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h2>
+<a id="features" class="anchor" href="#features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Features</h2>
 
 <ul>
+<li>BYOS(Bring Your Own Server)</li>
 <li>Full WYSIWYG editor</li>
 <li>Touch friendly and mouse friendly ui</li>
 <li>Upload manager (not enabled in demo :) )</li>
 <li>Light weight</li>
 <li>Multi user support</li>
-<li>Note History ***(Revisions are currently being stored. However, there is not view to see revision tree)</li>
 <li>Search</li>
-<li>PDO Connector/(MySql and SQLite Database Support)</li>
+<li>Offline App</li>
+<li>CouchDB Sync via PouchDB</li>
 <li>Move Folders(Drag into another folder in the list view.)</li>
 <li>Rename/Delete Folders(Click on folder title to get menu.)</li>
-</ul><h2>
-<a name="upcoming-features" class="anchor" href="#upcoming-features"><span class="octicon octicon-link"></span></a>Upcoming Features</h2>
+<li>Responsive</li>
+</ul>
+
+<h2>
+<a id="upcoming-features" class="anchor" href="#upcoming-features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Upcoming Features</h2>
 
 <ul>
-<li>REST service and Angular JS Based front end. Working on in working branch.</li>
 <li>Tags (You win)</li>
 <li>Email to note</li>
 <li>Implement history viewer</li>
 <li>Install script</li>
 <li>Move Notes (Feature lost when migrating to Angular based list)</li>
 <li>Mobile App</li>
-</ul><h2>
-<a name="user-wish-list" class="anchor" href="#user-wish-list"><span class="octicon octicon-link"></span></a>User Wish List</h2>
-
-<p>List of things users are wishing for that have not made it into the pipeline.
-Please do not re-submit issues for these features. Instead, how about a donation with the feature in the comment?</p>
-
-<ul>
-<li>Out of box PostgreSQL support. PDO connector support PostgreSQL.</li>
-</ul><h2>
-<a name="demo" class="anchor" href="#demo"><span class="octicon octicon-link"></span></a>Demo</h2>
-
-<p><a href="http://stardrive.us/OpenNote/">http://stardrive.us/OpenNote/</a></p>
+</ul>
 
 <h2>
-<a name="documentation" class="anchor" href="#documentation"><span class="octicon octicon-link"></span></a>Documentation</h2>
+<a id="documentation" class="anchor" href="#documentation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Documentation</h2>
 
 <p><a href="https://github.com/FoxUSA/OpenNote/blob/master/Doc/Install.md">How to install</a></p>
 
@@ -111,7 +101,7 @@ Please do not re-submit issues for these features. Instead, how about a donation
 <p><img src="https://raw.github.com/FoxUSA/OpenNote/master/Doc/screenShots/dark1.png" alt=""></p>
 
 <h2>
-<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
 
 <pre><code>JQuery - Distributed under the MIT License
 Angular - Distributed under the MIT License
@@ -119,32 +109,32 @@ Bootstrap - Distributed under the MIT License
 CKEditor - Distributed under the MPL License
 Angular UI Tree - Distributed under the MIT License
 Alertify.js - Distributed under the MIT License
+PouchDB - Distributed under the Apache License
+Dragula - Distributed under the MIT License
+Into.js - Distributed with license from Afshin Mehrabani Copyright (C) 2012
 
 OpenNote Code - Distributed under the MIT License
 
-Other OpenNote licenses are available for purchase from the author
-© Jacob Liscom 2014
+© Jacob Liscom 2015
 </code></pre>
 
 <h2>
-<a name="credits" class="anchor" href="#credits"><span class="octicon octicon-link"></span></a>Credits</h2>
+<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits</h2>
 
 <pre><code>J. Liscom - Supreme Programmer
 
 Kam Bnkamalesh - His TODO project heavily influenced my UI design
 </code></pre>
-      </section>
-    </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Opennote maintained by <a href="https://github.com/FoxUSA">FoxUSA</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/FoxUSA/OpenNote">Opennote</a> is maintained by <a href="https://github.com/FoxUSA">FoxUSA</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
       </footer>
-    </div>
 
-    
+    </section>
 
+  
   </body>
 </html>
+
