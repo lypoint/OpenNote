@@ -507,10 +507,6 @@ openNote/style/simplicity/light/alertify.css
 openNote/style/simplicity/light/intojs.css
 openNote/style/simplicity/light/note.css
 openNote/style/simplicity/light/style.css
-Service/controller/index.html
-Service/index.html
-Service/model/sql/index.html
-Service/upload/index.html
 bower_components/ckeditor/plugins/preview/preview.html
 bower_components/ckeditor/plugins/wsc/dialogs/ciframe.html
 bower_components/ckeditor/plugins/wsc/dialogs/tmpFrameset.html
