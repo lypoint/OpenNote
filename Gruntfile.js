@@ -105,7 +105,7 @@ module.exports = function(grunt) {
 		        shell: {
 		            bowerInstall: {
 		                command:  [	"cd OpenNote",
-		                			"bower install" ].join("&&")
+		                			"bower --allow-root install" ].join("&&")
 		            },
 		            clean:{
 		            	command:  [	"rm -rf build",

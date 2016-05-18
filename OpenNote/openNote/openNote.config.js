@@ -47,18 +47,18 @@ openNote.value("config", {
 	 */
 	getHelpContent: function(){
 		return {
-			homeButton: "Click here to return to home page.",
-			listArea: "This area gives you a high level tree view of the folder structure. You can drag folder to re-arange them. To drag a folder into another, the parrent folder must be open.",
-			newNoteButton: "Allows you to create a new note in the the current folder.",
-			newFolderButton: "Allows you to create a sub folder in the current folder.",
-			findButton: "Launches the folder/note find utility.",
-			folderEditModeButton: "Click this button to reveal edit mode buttons. You cannot edit the Home folder.",
-			viewArea: "This is the main area. Folder browser and note editor are displayed here.",
-			noteBody: "This is the main note body. If edit mode is enabled this becomes the editor.",
-			clearButton: "Press this button to revert current changes.",
-			saveButton: "Click this to save this note. Old version are kept.",
-			editButton: "Click this to change the note into edit mode.",
-			noteTitle: "This the note title field. In edit mode, you can use it to edit the notes title."
+			homeButton: "点击这里回到首页。",
+			listArea: "这里展示的是分类目录。你可以拖拽他们重新排序。如果要将一个目录拖拽到另外一个目录中，目标目录需要是打开的。",
+			newNoteButton: "在当前目录分类中新建一个记录。",
+			newFolderButton: "在当前目录里新建一个子目录。",
+			findButton: "打开快速搜索界面",
+			folderEditModeButton: "点击这里显示编辑按钮",
+			viewArea: "这里是主显示区。显示目录结构和编辑区域。",
+			noteBody: "这里是记录内容。在编辑模式下这里是一个编辑器。",
+			clearButton: "点击这个按钮可以撤销你的操作。",
+			saveButton: "点击这里保存记录。",
+			editButton: "点击这里进入编辑模式。",
+			noteTitle: "这是记录标题。在编辑模式下，可以在这里编辑标题。"
 		}
 	},
 
