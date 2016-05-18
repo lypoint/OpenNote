@@ -47,18 +47,18 @@ openNote.value("config", {
 	 */
 	getHelpContent: function(){
 		return {
-			homeButton: "�������ص���ҳ��",
-			listArea: "����չʾ���Ƿ���Ŀ¼���������ק���������������Ҫ��һ��Ŀ¼��ק������һ��Ŀ¼�У�Ŀ��Ŀ¼��Ҫ�Ǵ򿪵ġ�",
-			newNoteButton: "�ڵ�ǰĿ¼�������½�һ����¼��",
-			newFolderButton: "�ڵ�ǰĿ¼���½�һ����Ŀ¼��",
-			findButton: "�򿪿�����������",
-			folderEditModeButton: "���������ʾ�༭��ť",
-			viewArea: "����������ʾ������ʾĿ¼�ṹ�ͱ༭����",
-			noteBody: "�����Ǽ�¼���ݡ��ڱ༭ģʽ��������һ���༭����",
-			clearButton: "��������ť���Գ�����Ĳ�����",
-			saveButton: "������ﱣ���¼��",
-			editButton: "����������༭ģʽ��",
-			noteTitle: "���Ǽ�¼���⡣�ڱ༭ģʽ�£�����������༭���⡣"
+			homeButton: "点击这里回到首页。",
+			listArea: "这里展示的是分类目录。你可以拖拽他们重新排序。如果要将一个目录拖拽到另外一个目录中，目标目录需要是打开的。",
+			newNoteButton: "在当前目录分类中新建一个记录。",
+			newFolderButton: "在当前目录里新建一个子目录。",
+			findButton: "打开快速搜索界面",
+			folderEditModeButton: "点击这里显示编辑按钮",
+			viewArea: "这里是主显示区。显示目录结构和编辑区域。",
+			noteBody: "这里是记录内容。在编辑模式下这里是一个编辑器。",
+			clearButton: "点击这个按钮可以撤销你的操作。",
+			saveButton: "点击这里保存记录。",
+			editButton: "点击这里进入编辑模式。",
+			noteTitle: "这是记录标题。在编辑模式下，可以在这里编辑标题。"
 		}
 	},
 
